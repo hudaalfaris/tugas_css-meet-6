@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    font-family:sans-serif;
+}
+
+#main-container, #footer-container{
+    width: 70%;
+    padding: 15px;
+    margin: auto;
+}
+
+#main-container{
+    background-color: white;
+}
+
+#footer-container{
+    background-color: black;
+}
+
+#header-container {
+    background-color: white;
+    padding-bottom: 3%;
+    border-bottom: 3px solid orange;
+    margin-bottom: 3%;
+}
+
+#header-container img{
+    width: 150px;
+    float: left;
+    margin-right: 2%;
+    
+}
+#header-container h1{
+    color: red;
+    font-size: 62px;
+    font-weight: bold;
+    float: left;
+    margin-top: 3%;
+    border-bottom: 5px solid gray;
+    width: 75%;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* my profile */
+
+#profile-container{
+    padding-bottom: 3%;
+    border-bottom: 3px solid orange;
+    margin-bottom: 3%;
+}
+#profile-container h1{
+    text-align: center;
+    font-size: 32px;
+    background-color: gray;
+    color: white;
+    padding: 15px ;
+    margin-bottom: 20px;
+}
+
+#info-container img{
+    margin-left: 2%;
+    width: 200px;
+   float: left; 
+   margin-right: 15px;
+}
+
+#desc-kontainer{
+    float: left;
+    width: 600px;
+   
+}
+#desc-kontainer p{
+    text-align: justify;
+}
+#info-container{
+    
+    width: 95%;
+    margin: auto;
+    
+}
+
+/* activities */
+
+#activities-container h1{
+    text-align: center;
+    font-size: 32px;
+    background-color: grey;
+    color: white;
+    padding: 15px ;
+    margin-bottom: 20px;
+}
+.item-activities-container{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.item-activities-container p{
+    text-align: justify;
+}
+
+.item-activities-container img{
+    width: 100%;
+}
+
+#footer-container h2{
+    background-color: green;
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+}
